@@ -1,0 +1,17 @@
+
+
+<?import javafx.scene.layout.VBox?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+
+
+<JFXTabPane fx:id="tabPane" tabClosingPolicy="ALL_TABS" >
+
+    <Tab text="main tab" fx:id="mainTab" closable="false"/>
+    <Tab text="+" fx:id="newTab"  closable="false"/>
+
+
+</JFXTabPane>
+</VBox>
